@@ -39,3 +39,7 @@
 
 同时需要 word2vec词向量，统计近义词。 
 
+
+
+### 操作步骤参考 feature-extract.ipynb
+
