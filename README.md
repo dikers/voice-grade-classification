@@ -25,13 +25,17 @@
 ### 语法错误个数
 
 参考开源解决方案
-https://github.com/myint/language-check 
-https://github.com/shikanon/AutoPerusalProcedure
-https://languagetool.org/dev
+
+[https://github.com/myint/language-check](https://github.com/myint/language-check) 
+
+[https://github.com/shikanon/AutoPerusalProcedure](https://github.com/shikanon/AutoPerusalProcedure)
+
+[https://languagetool.org/dev](https://languagetool.org/dev)
 
 
 ### 名词 动词语义覆盖度
 
 通过AWS comprehend 对单词进行分类， 然后进行名词和动词的统计， 并且和范文进行比对。 
-（还需要统计近义词）
+
+同时需要 word2vec词向量，统计近义词。 
 
