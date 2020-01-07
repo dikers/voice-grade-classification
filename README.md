@@ -39,9 +39,23 @@
 
 同时需要 word2vec词向量，统计近义词。 
 
-近义词数据库[https://nlp.stanford.edu/projects/glove/](https://nlp.stanford.edu/projects/glove/)
+近义词数据库 [https://nlp.stanford.edu/projects/glove/](https://nlp.stanford.edu/projects/glove/)
 
-[预训练词向量下载](http://nlp.stanford.edu/data/glove.6B.zip) 包含维基百科40万单词。 
+[预训练词向量下载](http://nlp.stanford.edu/data/glove.6B.zip) 包含维基百科40万单词
+因为单词量比较大， 速度会有一些慢， 以及将初高中常用的词汇近义词直接计算出来，放入缓存中。 
+
+film 同义词
+```json
+[('movie', 0.931), ('films', 0.924), ('documentary', 0.872), ('drama', 0.866), ('comedy', 0.866), ('directed', 0.843), ('movies', 0.843), ('acclaimed', 0.837), ('adaptation', 0.815), ('comic', 0.806)]
+```
+predict 同义词
+```json
+
+[('predicting', 0.895), ('anticipate', 0.842), ('predicted', 0.837), ('foresee', 0.808), ('expect', 0.798), ('predictions', 0.788), ('suggest', 0.775), ('economists', 0.775), ('speculate', 0.759), ('likely', 0.753)]
+
+```
+
+
 
 
 
