@@ -39,6 +39,10 @@
 
 同时需要 word2vec词向量，统计近义词。 
 
+近义词数据库[https://nlp.stanford.edu/projects/glove/](https://nlp.stanford.edu/projects/glove/)
+
+[预训练词向量下载](http://nlp.stanford.edu/data/glove.6B.zip) 包含维基百科40万单词。 
+
 
 
 ### 操作步骤参考 feature-extract.ipynb
